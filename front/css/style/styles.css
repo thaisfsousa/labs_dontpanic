@@ -1,0 +1,138 @@
+* {
+  font-family: 'Work Sans', sans-serif;
+  padding: 0;
+}
+
+.container_header {
+  padding: 0;
+  margin: 20px 20px 0px 20px;
+  background-color: #57E0D0;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_img {
+  padding: 20px;
+  display: flex;
+}
+
+.logo_texto {
+  font-size: 40px;
+  display: flex;
+  width: 60%;
+  color: rgb(100, 96, 96);
+}
+
+.main {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(100, 96, 96);
+  background-color: #D9FCEF;
+  margin: 10px 20px;
+  padding: 30px;
+  justify-items: center;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  border-radius: 20%;
+  align-content: center;
+  align-items: center;
+  background-color: rgb(121, 117, 117);
+  color: white;
+  display: inline-block;
+  padding: 5px;
+  font-size: 40px;
+  margin: 10px 1px;
+  box-shadow: 2px 2px rgb(5, 5, 5);
+}
+
+.button_a {
+  width: 30px;
+  height: 50px;
+  border-radius: 20%;
+  align-content: center;
+  background-color: #4fbdb0;
+  color: white;
+  display: inline-block;
+  padding: 14px;
+  font-size: 40px;
+  margin: 0px 5px;
+  border-color: black;
+  border-style:solid;
+}
+
+.new {
+  display: block;
+  font-size: 30px;
+}
+
+.button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-container {
+  background-color: #57e0d0;
+  display: flex;
+  margin: 0px 20px;
+}
+
+.footer {
+  color: #57e0d0;
+  display: flex;
+  gap: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.footer-heading-footer-1 {
+  color: white;
+  display: flex;
+
+}
+
+.footer-heading-footer-2 {
+  flex-direction: column;
+  display: flex;
+}
+
+.footer-heading-footer-2 h2 {
+  color: rgb(100, 96, 96);
+  display: flex;
+}
+
+.footer-heading-footer-1 a {
+  color: rgb(100, 96, 96);
+  text-decoration: none;
+  display: flex;
+}
+
+.footer-heading-footer-3 a {
+  color: rgb(17, 16, 16);
+  text-decoration: none;
+  margin: 8px;
+  justify-content: right;
+  display: flex;
+}
+
+.footer-heading-footer-3 a:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.1 ease-out;
+  display: flex;
+}
+
+.footer-heading-footer-1 a:hover {
+  color: rgb(255, 255, 255);
+  transition: 0.2s ease-in-out;
+  display: flex;
+}

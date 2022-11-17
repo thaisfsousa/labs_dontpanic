@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <script src="teste.js"></script>
+        <title> Dont panic baby!</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style/styles.css">
+   </head>
+   <body>
+    <header>
+        <div class="container_header">
+                    <div class="logo_img"> 
+                        <a href="https://profile.intra.42.fr/">
+                        <img src="./assets/logo-42-54pixels.png">
+                        </a>
+                    </div>
+                    <div class="logo_texto"> 
+                    DON'T PANIC BABY!
+                    </div>
+            </div>
+        </div>
+    </header>
+    <main class="main"> 
+        <div class="container-main">
+            <h2>Insira uma equação: </h2>
+            <p type="text" class="button_a" id="param_1"style="width: 50px; height: 50px;"> <script> document.getElementById("botao").id;</script> </p>
+            <p class="button_a" id="param_2"style="width: 50px; height: 50px;">  </p>
+            <p class="button_a" id="param_3"style="width: 50px; height: 50px;">  </p>
+            <p class="button_a" id="param_4"style="width: 50px; height: 50px;">  </p>
+            <p class="button_a" id="param_5"style="width: 50px; height: 50px;">  </p>
+            <p class="button_a" id="param_6"style="width: 50px; height: 50px;">  </p>      
+            <div class="keyboard">
+                    <input type="button" class="button" value="0" id=botao onclick="put_value(value)">
+                    <input type="button" class="button" value="1" id=botao onclick="put_value(value)">  
+                    <input type="button" class="button" value="2" id=botao onclick="put_value(value)">
+                    <input type="button" class="button" value="3" id=botao onclick="put_value(value)">
+                    <input type="button" class="button" value="4" id=botao onclick="put_value(4)">
+                    <input type="button" class="button" value="5" id=botao onclick="put_value(5)">
+                    <input type="button" class="button" value="6" id=botao onclick="put_value(6)">
+                    <input type="button" class="button" value="7" id=botao onclick="put_value(7)">
+                    <input type="button" class="button" value="8" id=botao onclick="put_value(8)">
+                    <input type="button" class="button" value="9" id=botao onclick="put_value(9)">
+                    <div class="new">
+                        <button class="button" name="+" id="+" onclick="put_value(id)"> + </button>
+                        <button class="button" name="-" id="-" onclick="put_value(id)"> - </button>
+                        <button class="button" name="*" id="*" onclick="put_value('*')"> * </button>
+                        <button class="button" name="/" id="/" onclick="put_value('/')"> / </button>
+                        <button class="button" name="DEL" id="DEL" style="width: 95px;" onclick="put_value(0)"> DEL </button>
+                        <button class="button" name="GO" id="GO" style="width: 80px;" onclick="put_value(0)"> GO </button>
+                </div>
+                </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer">
+                <div class="footer-heading-footer-1">
+                    <h2><a href="https://github.com/FT-LabsRJ/dontpanic_baby/blob/develop/README.md" target="_blank">Como Jogar</a></h2>
+                </div>
+                <div class="footer-heading-footer-2">
+                    <h2>Contribuidores</h2>
+                </div>
+                <div class="footer-heading-footer-3">
+                    <a href="https://www.linkedin.com/in/douglas-coutinho-dos-santos/" target="_blank">Douglas Coutinho</a>
+                    <a href="https://www.linkedin.com/in/marlonpolissene/" target="_blank">Marlon Polissene</a>
+                    <a href="https://www.linkedin.com/in/marlonreismdesa/" target="_blank">Marlon Reis</a>
+                    <a href="https://www.linkedin.com/in/mateus-pinna-61065b14a/" target="_blank">Mateus Pinna</a>
+                    <a href="https://www.linkedin.com/in/thaisfsousa/" target="_blank">Thais Sousa</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   </body>
+</html>
