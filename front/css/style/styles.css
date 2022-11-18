@@ -76,15 +76,15 @@
   border-style: solid;
 }
 
-.box.empty {
-  background-color: #4fbdb0;
+.box.fail {
+  background-color: #bd564f;
 }
 
-.box.wrong {
+.box.n-ok {
   background-color: rgb(212, 201, 97);
 }
 
-.box.right {
+.box.ok {
   background-color: rgb(110, 218, 110);
 }
 
